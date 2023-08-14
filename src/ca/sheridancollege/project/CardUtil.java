@@ -4,10 +4,10 @@ package ca.sheridancollege.project;
  * A utility class for working with Card objects.
  */
 public class CardUtil {
-    /**
-     * Assigns a numerical value to each card rank.
-     * Returns the numerical value of the card's rank.
-     */
+    
+/**
+ * @author CardAppraiser
+ */
     public static int getRankValue(Card card) {
         String rank = card.getRank();
         switch (rank) {

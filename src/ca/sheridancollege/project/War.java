@@ -5,6 +5,10 @@ import java.util.ArrayList;
 /**
  * A class that models the War game.
  */
+
+/**
+ * @author CardAppraiser
+ */
 public class War extends Game {
     private GroupOfCards deck;
     private ArrayList<Card> pile;
